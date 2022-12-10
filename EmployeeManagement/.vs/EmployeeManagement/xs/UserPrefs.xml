@@ -1,0 +1,6 @@
+﻿<Properties StartupConfiguration="{8C572A3A-0663-4AC9-AE4A-0267E38A4B1E}|Default">
+  <MonoDevelop.Ide.ItemProperties.EmployeeManagement.Infrastructure FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.EmployeeManagement.API PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.EmployeeManagement.Application FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>
