@@ -3,4 +3,5 @@
   <MonoDevelop.Ide.ItemProperties.EmployeeManagement.API PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.EmployeeManagement.Application FirstBuild="True" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.EmployeeManagement.Core FirstBuild="True" />
 </Properties>
