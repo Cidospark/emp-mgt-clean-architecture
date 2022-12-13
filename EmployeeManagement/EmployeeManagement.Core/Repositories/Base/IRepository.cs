@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Employee.Core.Repositories.Base
+namespace EmployeeManagement.Core.Repositories.Base
 {
     public interface IRepository<T> where T: class
     {
