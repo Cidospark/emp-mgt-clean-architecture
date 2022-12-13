@@ -1,30 +1,29 @@
 ﻿<Properties StartupConfiguration="{8C572A3A-0663-4AC9-AE4A-0267E38A4B1E}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.EmployeeManagement.Infrastructure FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.EmployeeManagement.API PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.EmployeeManagement.Application FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagement.Infrastructure/Class1.cs">
+  <MonoDevelop.Ide.ItemProperties.EmployeeManagement.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagement.Infrastructure/Repositories/EmployeeRepository.cs">
     <Files>
-      <File FileName="EmployeeManagement.Application/Class1.cs" Line="1" Column="1" />
-      <File FileName="EmployeeManagement.Infrastructure/Class1.cs" Line="1" Column="1" />
+      <File FileName="EmployeeManagement.Infrastructure/Data/EmployeeContext.cs" Line="15" Column="1" />
+      <File FileName="EmployeeManagement.Infrastructure/EmployeeManagement.Infrastructure.csproj" Line="5" Column="44" />
+      <File FileName="EmployeeManagement.Infrastructure/Repositories/Base/Repository.cs" Line="5" Column="25" />
+      <File FileName="EmployeeManagement.Infrastructure/Repositories/EmployeeRepository.cs" Line="22" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="EmployeeManagement" expanded="True">
-            <Node name="EmployeeManagement.Core" expanded="True" />
-            <Node name="EmployeeManagement.Infrastructure" expanded="True">
-              <Node name="Class1.cs" selected="True" />
-            </Node>
-          </Node>
+          <Node name="EmployeeManagement" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="EmployeeManagement" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.EmployeeManagement.Core FirstBuild="True" />
 </Properties>
