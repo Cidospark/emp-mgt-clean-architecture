@@ -1,7 +1,30 @@
 ﻿<Properties StartupConfiguration="{8C572A3A-0663-4AC9-AE4A-0267E38A4B1E}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.EmployeeManagement.Infrastructure FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.EmployeeManagement.API PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.EmployeeManagement.Application FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagement.Infrastructure/Class1.cs">
+    <Files>
+      <File FileName="EmployeeManagement.Application/Class1.cs" Line="1" Column="1" />
+      <File FileName="EmployeeManagement.Infrastructure/Class1.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EmployeeManagement" expanded="True">
+            <Node name="EmployeeManagement.Core" expanded="True" />
+            <Node name="EmployeeManagement.Infrastructure" expanded="True">
+              <Node name="Class1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.EmployeeManagement.Core FirstBuild="True" />
 </Properties>
