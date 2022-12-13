@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Employee.Core.Repositories.Base;
-using Employee.Infrastructure.Data;
+using EmployeeManagement.Core.Repositories.Base;
+using EmployeeManagement.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace Employee.Infrastructure.Repositories.Base
+namespace EmployeeManagement.Infrastructure.Repositories.Base
 {
     public class Repository<T> : IRepository<T> where T : class
     {

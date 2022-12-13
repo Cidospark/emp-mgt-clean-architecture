@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 
-namespace Employee.Infrastructure.Data
+namespace EmployeeManagement.Infrastructure.Data
 {
     public class EmployeeContext : DbContext
     {
@@ -9,7 +9,7 @@ namespace Employee.Infrastructure.Data
         {
         }
 
-        public DbSet<Employee.Core.Entities.Employee> Employees { get; set; }
+        public DbSet<EmployeeManagement.Core.Entities.Employee> Employees { get; set; }
     }
 }
 
