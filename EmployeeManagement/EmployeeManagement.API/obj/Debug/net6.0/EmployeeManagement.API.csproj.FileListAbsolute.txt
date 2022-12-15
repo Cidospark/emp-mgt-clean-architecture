@@ -5,7 +5,12 @@
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/bin/Debug/net6.0/EmployeeManagement.API.runtimeconfig.json
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/bin/Debug/net6.0/EmployeeManagement.API.dll
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/bin/Debug/net6.0/EmployeeManagement.API.pdb
+/Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/bin/Debug/net6.0/AutoMapper.dll
+/Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/bin/Debug/net6.0/Humanizer.dll
+/Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/bin/Debug/net6.0/MediatR.dll
+/Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/bin/Debug/net6.0/MediatR.Contracts.dll
+/Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/bin/Debug/net6.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll

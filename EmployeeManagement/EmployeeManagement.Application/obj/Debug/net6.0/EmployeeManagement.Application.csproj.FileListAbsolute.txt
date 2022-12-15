@@ -1,11 +1,14 @@
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.Application/bin/Debug/net6.0/EmployeeManagement.Application.deps.json
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.Application/bin/Debug/net6.0/EmployeeManagement.Application.dll
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.Application/bin/Debug/net6.0/EmployeeManagement.Application.pdb
+/Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.Application/bin/Debug/net6.0/EmployeeManagement.Core.dll
+/Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.Application/bin/Debug/net6.0/EmployeeManagement.Core.pdb
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.Application/obj/Debug/net6.0/EmployeeManagement.Application.csproj.AssemblyReference.cache
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.Application/obj/Debug/net6.0/EmployeeManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.Application/obj/Debug/net6.0/EmployeeManagement.Application.AssemblyInfoInputs.cache
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.Application/obj/Debug/net6.0/EmployeeManagement.Application.AssemblyInfo.cs
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.Application/obj/Debug/net6.0/EmployeeManagement.Application.csproj.CoreCompileInputs.cache
+/Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.Application/obj/Debug/net6.0/EmployeeManagement.Application.csproj.CopyComplete
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.Application/obj/Debug/net6.0/EmployeeManagement.Application.dll
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.Application/obj/Debug/net6.0/refint/EmployeeManagement.Application.dll
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.Application/obj/Debug/net6.0/EmployeeManagement.Application.pdb

@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "Gk0S2RqxUU5NMdzW5SW9oxtpxjmq+mLPAwz6fktTil9xzG/QJMhmBbF2/8X6AWkkyAJIQi18uAoa0MR0KIff5A==",
+  "dgSpecHash": "QmdGaIxVpPEgiGg3hyXkrtOs6V+OXbDmhu+7y+f+XX+TqY3F5HY0T97V66A1M7vmWlazmMyKS7SqwuXJsPSkhw==",
   "success": true,
   "projectFilePath": "/Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/EmployeeManagement.API.csproj",
   "expectedPackageFiles": [
+    "/Users/macbook/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.0.0/mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.entityframeworkcore/6.0.1/microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
