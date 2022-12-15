@@ -72,3 +72,5 @@
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/obj/Debug/net6.0/EmployeeManagement.API.pdb
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/obj/Debug/net6.0/EmployeeManagement.API.genruntimeconfig.cache
 /Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/obj/Debug/net6.0/ref/EmployeeManagement.API.dll
+/Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/bin/Debug/net6.0/EmployeeManagement.Application.dll
+/Users/macbook/Projects/Repos/2022/emp-mgt-clean-architecture/EmployeeManagement/EmployeeManagement.API/bin/Debug/net6.0/EmployeeManagement.Application.pdb

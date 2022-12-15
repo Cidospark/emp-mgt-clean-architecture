@@ -9,6 +9,7 @@
       "EmployeeManagement.API/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "EmployeeManagement.Application": "1.0.0",
           "EmployeeManagement.Infrastructure": "1.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.1",
@@ -532,6 +533,16 @@
           }
         }
       },
+      "EmployeeManagement.Application/1.0.0": {
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "EmployeeManagement.Core": "1.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0"
+        },
+        "runtime": {
+          "EmployeeManagement.Application.dll": {}
+        }
+      },
       "EmployeeManagement.Core/1.0.0": {
         "runtime": {
           "EmployeeManagement.Core.dll": {}
@@ -931,6 +942,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "EmployeeManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "EmployeeManagement.Core/1.0.0": {
       "type": "project",

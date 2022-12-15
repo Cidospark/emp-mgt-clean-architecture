@@ -1,42 +1,40 @@
 ﻿<Properties StartupConfiguration="{8C572A3A-0663-4AC9-AE4A-0267E38A4B1E}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.EmployeeManagement.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagement.Application/EmployeeManagement.Application.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagement.API/Controllers/EmployeeController.cs">
     <Files>
-      <File FileName="EmployeeManagement.Infrastructure/Data/EmployeeContext.cs" Line="15" Column="1" />
-      <File FileName="EmployeeManagement.Infrastructure/EmployeeManagement.Infrastructure.csproj" Line="14" Column="4" />
-      <File FileName="EmployeeManagement.Infrastructure/Repositories/Base/Repository.cs" Line="5" Column="25" />
-      <File FileName="EmployeeManagement.Infrastructure/Repositories/EmployeeRepository.cs" Line="22" Column="1" />
-      <File FileName="EmployeeManagement.API/appsettings.json" Line="11" Column="17" />
-      <File FileName="EmployeeManagement.API/Program.cs" Line="21" Column="1" />
-      <File FileName="EmployeeManagement.API/EmployeeManagement.API.csproj" Line="26" Column="24" />
-      <File FileName="EmployeeManagement.Application/EmployeeManagement.Application.csproj" Line="17" Column="1" />
-      <File FileName="EmployeeManagement.Application/Commands/CreateEmployeeCommand.cs" Line="1" Column="1" />
+      <File FileName="EmployeeManagement.Infrastructure/Data/EmployeeContext.cs" />
+      <File FileName="EmployeeManagement.Infrastructure/EmployeeManagement.Infrastructure.csproj" />
+      <File FileName="EmployeeManagement.Infrastructure/Repositories/Base/Repository.cs" />
+      <File FileName="EmployeeManagement.Infrastructure/Repositories/EmployeeRepository.cs" />
+      <File FileName="EmployeeManagement.API/appsettings.json" />
+      <File FileName="EmployeeManagement.API/Program.cs" Line="23" Column="81" />
+      <File FileName="EmployeeManagement.API/EmployeeManagement.API.csproj" />
+      <File FileName="EmployeeManagement.Application/Commands/CreateEmployeeCommand.cs" Line="7" Column="54" />
+      <File FileName="EmployeeManagement.Application/Handlers/CreateEmployeeHandler.cs" Line="23" Column="90" />
+      <File FileName="EmployeeManagement.Application/Mappers/EmployeeMapper.cs" Line="4" Column="29" />
+      <File FileName="EmployeeManagement.Application/Mappers/EmployeeMappingProfile.cs" Line="17" Column="1" />
+      <File FileName="EmployeeManagement.Application/Response/EmployeeResponse.cs" Line="11" Column="42" />
+      <File FileName="EmployeeManagement.Core/Entities/Employee.cs" Line="7" Column="18" />
+      <File FileName="EmployeeManagement.API/Controllers/EmployeeController.cs" Line="13" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EmployeeManagement" expanded="True">
             <Node name="EmployeeManagement.API" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="EmployeeController.cs" selected="True" />
+              </Node>
             </Node>
-            <Node name="EmployeeManagement.Application" expanded="True">
-              <Node name="Commands" expanded="True" />
-            </Node>
-            <Node name="EmployeeManagement.Infrastructure" selected="True" />
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="ClassPad">
-        <State name="__root__">
-          <Node name="EmployeeManagement" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.EmployeeManagement.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

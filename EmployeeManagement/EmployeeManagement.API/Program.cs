@@ -1,4 +1,7 @@
-﻿using EmployeeManagement.Infrastructure.Data;
+﻿using System.Reflection;
+using EmployeeManagement.Application.Handlers;
+using EmployeeManagement.Infrastructure.Data;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +19,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddMediatR(typeof(CreateEmployeeHandler).GetTypeInfo().Assembly);
 
 var app = builder.Build();
 
