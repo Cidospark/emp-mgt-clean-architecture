@@ -2,14 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagement.API/Controllers/EmployeeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeManagement.API/Program.cs">
     <Files>
-      <File FileName="EmployeeManagement.Infrastructure/Data/EmployeeContext.cs" />
-      <File FileName="EmployeeManagement.Infrastructure/EmployeeManagement.Infrastructure.csproj" />
-      <File FileName="EmployeeManagement.Infrastructure/Repositories/Base/Repository.cs" />
-      <File FileName="EmployeeManagement.Infrastructure/Repositories/EmployeeRepository.cs" />
-      <File FileName="EmployeeManagement.API/appsettings.json" />
-      <File FileName="EmployeeManagement.API/Program.cs" Line="23" Column="81" />
+      <File FileName="EmployeeManagement.API/Program.cs" Line="10" Column="1" />
       <File FileName="EmployeeManagement.API/EmployeeManagement.API.csproj" />
       <File FileName="EmployeeManagement.Application/Commands/CreateEmployeeCommand.cs" Line="7" Column="54" />
       <File FileName="EmployeeManagement.Application/Handlers/CreateEmployeeHandler.cs" Line="23" Column="90" />
@@ -17,18 +12,12 @@
       <File FileName="EmployeeManagement.Application/Mappers/EmployeeMappingProfile.cs" Line="17" Column="1" />
       <File FileName="EmployeeManagement.Application/Response/EmployeeResponse.cs" Line="11" Column="42" />
       <File FileName="EmployeeManagement.Core/Entities/Employee.cs" Line="7" Column="18" />
-      <File FileName="EmployeeManagement.API/Controllers/EmployeeController.cs" Line="13" Column="20" />
+      <File FileName="EmployeeManagement.API/Controllers/EmployeeController.cs" Line="46" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="EmployeeManagement" expanded="True">
-            <Node name="EmployeeManagement.API" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="EmployeeController.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="EmployeeManagement" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

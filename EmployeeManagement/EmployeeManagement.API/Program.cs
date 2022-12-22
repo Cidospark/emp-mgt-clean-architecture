@@ -1,6 +1,10 @@
 ﻿using System.Reflection;
 using EmployeeManagement.Application.Handlers;
+using EmployeeManagement.Core.Repositories;
+using EmployeeManagement.Core.Repositories.Base;
 using EmployeeManagement.Infrastructure.Data;
+using EmployeeManagement.Infrastructure.Repositories;
+using EmployeeManagement.Infrastructure.Repositories.Base;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
@@ -21,6 +25,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddMediatR(typeof(CreateEmployeeHandler).GetTypeInfo().Assembly);
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddTransient<IEmployeeRepository, EmployeeRepository>();
 
 var app = builder.Build();
 
