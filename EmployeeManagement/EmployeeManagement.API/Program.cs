@@ -2,6 +2,7 @@
 using EmployeeManagement.Application.Handlers;
 using EmployeeManagement.Core.Repositories;
 using EmployeeManagement.Core.Repositories.Base;
+using EmployeeManagement.Infrastructure.Caching;
 using EmployeeManagement.Infrastructure.Data;
 using EmployeeManagement.Infrastructure.Repositories;
 using EmployeeManagement.Infrastructure.Repositories.Base;
@@ -27,6 +28,7 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddMediatR(typeof(CreateEmployeeHandler).GetTypeInfo().Assembly);
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddTransient<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped(typeof(ICacheProvider<>), typeof(CacheProvider<>));
 
 var app = builder.Build();
 

@@ -1,24 +1,32 @@
 ﻿using System;
+using System.Linq;
+using EmployeeManagement.Core.Entities;
 using EmployeeManagement.Core.Enums;
+using EmployeeManagement.Core.Repositories;
+using EmployeeManagement.Core.Repositories.Base;
+using EmployeeManagement.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 
 namespace EmployeeManagement.Infrastructure.Caching
 {
-	public class CacheProvider<T>: ICacheProvider<T>
-	{
+	public class CacheProvider<T>: ICacheProvider<T> where T : class
+    {
         private readonly IMemoryCache memoryCache;
-        private static readonly SemaphoreSlim GetDataSemaphore = new SemaphoreSlim(1, 1); 
+        private readonly EmployeeContext _context;
+        private static readonly SemaphoreSlim GetDataSemaphore = new SemaphoreSlim(1, 1);
 
-        public CacheProvider(IMemoryCache memoryCache)
+        public CacheProvider(IMemoryCache memoryCache, EmployeeContext context)
 		{
             this.memoryCache = memoryCache;
+            _context = context;
         }
 
-        public async Task<IEnumerable<T>> GetCachedResponse()
+        public async Task<IEnumerable<T>> GetCachedResponse(string cacheKey)
         {
             try
             {
-                return await GetCachedResponse(CacheKeys.Users.ToString(), GetDataSemaphore);
+                return await GetCachedResponse(cacheKey, GetDataSemaphore);
             }
             catch
             {
@@ -36,15 +44,15 @@ namespace EmployeeManagement.Infrastructure.Caching
                 isAvailable = memoryCache.TryGetValue(cacheKey, out data);
 
                 // if data doesn't already exists in cache set it
-                var result = await unitOfWork.Users.All();
-                users = result.ToList();
+                data = await _context.Set<T>().ToListAsync();
+
                 var memoryCacheEntryOpts = new MemoryCacheEntryOptions
                 {
                     AbsoluteExpiration = DateTime.Now.AddMinutes(5),
                     SlidingExpiration = TimeSpan.FromMinutes(2),
                     Size = 1024
                 };
-                memoryCache.Set(cacheKey, users, memoryCacheEntryOpts);
+                memoryCache.Set(cacheKey, data, memoryCacheEntryOpts);
             }
             catch
             {
