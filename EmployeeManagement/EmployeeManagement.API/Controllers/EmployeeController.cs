@@ -5,6 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using EmployeeManagement.Application.Commands;
 using EmployeeManagement.Application.Response;
+using EmployeeManagement.Core.Caching;
+using EmployeeManagement.Core.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,16 +19,19 @@ namespace EmployeeManagement.API.Controllers
     public class EmployeeController : ControllerBase
     {
         private readonly IMediator mediator;
+        private readonly ICacheProvider<Employee> cacheProvider;
 
-        public EmployeeController(IMediator mediator)
+        public EmployeeController(IMediator mediator, ICacheProvider<Employee> cacheProvider)
         {
             this.mediator = mediator;
+            this.cacheProvider = cacheProvider;
         }
         // GET: api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<IActionResult> Get()
         {
-            return new string[] { "value1", "value2" };
+            var result = await cacheProvider.GetCachedResponse("Employees");
+            return Ok(result);
         }
 
         // GET api/values/5

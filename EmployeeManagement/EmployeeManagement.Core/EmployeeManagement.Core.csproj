@@ -8,8 +8,10 @@
 
   <ItemGroup>
     <None Remove="Enums\" />
+    <None Remove="Caching\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Enums\" />
+    <Folder Include="Caching\" />
   </ItemGroup>
 </Project>

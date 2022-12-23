@@ -1,5 +1,5 @@
 ﻿using System;
-namespace EmployeeManagement.Infrastructure.Caching
+namespace EmployeeManagement.Core.Caching
 {
 	public interface ICacheProvider<T>
 	{

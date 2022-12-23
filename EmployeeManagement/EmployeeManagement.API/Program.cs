@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using EmployeeManagement.Application.Handlers;
+using EmployeeManagement.Core.Caching;
 using EmployeeManagement.Core.Repositories;
 using EmployeeManagement.Core.Repositories.Base;
 using EmployeeManagement.Infrastructure.Caching;
@@ -21,6 +22,7 @@ builder.Services.AddDbContext<EmployeeContext>(
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddMemoryCache();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
